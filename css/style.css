@@ -38,7 +38,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 	letter-spacing: 0.03em;
     font-family: 'Roboto', sans-serif;
     color: #838994;
@@ -71,11 +71,16 @@ table {
 	padding: 0px 0.938rem;
 	min-width: 37.5rem;
 	margin:; 0 auto; /* makes content always centered */
+	text-align: center;
 }
 
 /* Navigation Section */
 .top-navigation {
 	background-color: #fff;
+	height: 4rem;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation .logo {
@@ -119,7 +124,6 @@ table {
 	font-size: 3.125rem;
 	font-weight: 300;
 	color: white;
-	text-align: center;
 	align-items: center;
 }
 
@@ -127,7 +131,6 @@ table {
 	margin-top: 1.25rem;
 	font-size: 1.563rem;
 	color: white;
-	text-align: center;
 }
 
 .intro .big-button {
@@ -145,6 +148,32 @@ table {
 	color: white;
 	display: block;
 	margin: 0 auto;
+}
+
+.cases {
+	background-color: white;
+	background-size: cover;
+	background-position: center bottom;
+	height: 30rem;
+}
+
+.cases .content > h2 {
+	font-size: 2.25rem;
+	color: black;
+	margin-top: 3.53rem;
+	
+}
+
+.cases .devices {
+	width: 33.3333333%;
+	display: inline-block;
+	/* styles to assist with debugging */
+	border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;
+
+}
+
 }
 
 footer > li {
