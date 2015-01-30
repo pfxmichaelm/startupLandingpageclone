@@ -78,12 +78,14 @@ body {
 }
 .top-navigation .logo {
     height: 4.375rem;
+    padding-left: 20rem;
 }
 .top-navigation .links {
     float: right;
     color: #838994;
     font-size: 1.04rem;
     margin-top: 1.7rem;
+    padding-right: 20rem;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -188,7 +190,7 @@ button:hover {
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
-    padding: 0.625rem 0;
+    /*padding: 0.625rem 0.625rem;*/
     text-align: center;
 }
 .social .icons > li:hover {
