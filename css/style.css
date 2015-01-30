@@ -198,6 +198,7 @@ button:hover {
 }
 .social .twitter {
     color: #55acee;
+    padding-top: 0.5;
 }
 .social .facebook {
     color: #4c66a4;
