@@ -190,7 +190,7 @@ button:hover {
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
-    /*padding: 0.625rem 0.625rem;*/
+    padding: 0.625rem 0;
     text-align: center;
 }
 .social .icons > li:hover {
@@ -198,7 +198,6 @@ button:hover {
 }
 .social .twitter {
     color: #55acee;
-    padding-top: 0.5;
 }
 .social .facebook {
     color: #4c66a4;
